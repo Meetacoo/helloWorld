@@ -7,8 +7,12 @@ public class Int {
         int p;
         p = x + y + z;
         System.out.println(x);
+        x = 8;
+        int t = x + y + z;
+        System.out.println(x);
         System.out.println(y+z);
         System.out.println(s);
         System.out.println(p);
+        System.out.println(t);
     }
 }
